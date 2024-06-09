@@ -27,5 +27,7 @@ public class CalcularPagamento {
                         "%d horas x R$%.2f = R$%.2f\r\n" + //
                         "Descontos: R$%.2f\r\n" + //
                         "Total devido: R$%.2f", nome, horasTrabalhadas, valorHora, horasTrabalhadas * valorHora, valorDescontos, total);
+
+        scanner.close();
     }    
 }
