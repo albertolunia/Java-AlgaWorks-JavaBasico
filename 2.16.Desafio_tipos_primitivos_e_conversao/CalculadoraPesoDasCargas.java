@@ -1,4 +1,4 @@
-public class CalculadoraPesosDasCargas {
+public class CalculadoraPesoDasCargas {
 
     public static void main(String[] args) {
       double pesoCarga1 = 1033.49;
